@@ -6,7 +6,7 @@ describe('Service test suite', ()=>{
     test('Name should be cool', ()=>{
         
         const actual = getCoolName()
-        const expected = 'VeryCoolName_chaged_toBreak_thePipeline';
+        const expected = 'CoolName';
         expect(actual).toBe(expected)
     });
 
